@@ -310,7 +310,7 @@ class TMC5160:
         #   DRV_CONF
         set_config_field = self.fields.set_config_field
         set_config_field(config, "bbmtime", 0)
-        set_config_field(config, "bbmclks", 6)
+        set_config_field(config, "bbmclks", 10)
         set_config_field(config, "otselect", 0)
         set_config_field(config, "drvstrength", 2)
         set_config_field(config, "filt_isense", 0)
