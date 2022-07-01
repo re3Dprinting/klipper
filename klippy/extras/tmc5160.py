@@ -232,7 +232,7 @@ FieldFormatters = dict(tmc2130.FieldFormatters)
 ######################################################################
 
 VREF = 0.325
-MAX_CURRENT = 3.000
+MAX_CURRENT = 3.500
 
 class TMC5160CurrentHelper:
     def __init__(self, config, mcu_tmc):
