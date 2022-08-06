@@ -169,7 +169,7 @@ class ControlBangBang:
 # Proportional Integral Derivative (PID) control algo
 ######################################################################
 
-PID_SETTLE_DELTA = 1.
+PID_SETTLE_DELTA = 3.
 PID_SETTLE_SLOPE = .1
 
 class ControlPID:
